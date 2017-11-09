@@ -1,5 +1,5 @@
 {
-  "name": "raneto-example",
+  "name": "Newegg Knowledge base",
   "version": "1.0.0",
   "description": "",
   "main": "config.default.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Ryan Lelek <ryanlelek@gmail.com>",
+  "author": "Jude Zhu <Jude.X.Zhu@newegg.com>",
   "license": "ISC",
   "dependencies": {
     "raneto": "0.7.1",

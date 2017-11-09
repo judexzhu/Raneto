@@ -4,13 +4,13 @@
 var config = {
 
   // Your site title (format: page_title - site_title)
-  site_title: 'Raneto Docs',
+  site_title: 'Newegg MarkDown Knowledge System',
 
   // The base URL of your site (can use %base_url% in Markdown files)
-  base_url: '',
+  base_url: 'kb.newegg.org',
 
   // Used for the "Get in touch" page footer link
-  support_email: '',
+  support_email: 'jude.x.zhu@newegg.com',
 
   // Footer Text / Copyright
   copyright: 'Copyright &copy; '+ new Date().getFullYear() +' - <a href="http://raneto.com">Powered by Raneto</a>',
@@ -75,11 +75,11 @@ var config = {
   credentials    : [
     {
       username : 'admin',
-      password : 'password'
+      password : 'Newegg@123'
     },
     {
-      username : 'admin2',
-      password : 'password'
+      username : 'tuna',
+      password : 'Newegg@123'
     }
   ],
 
