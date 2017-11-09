@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kubernetes Tutorials (14)"
+title: "Newegg Kubernetes Cloud Tutorials (14)"
 description: "Ingress"
 tags: [Kubernetes, Docker]
 ---
 
-# Kubernetes Tutorials (14)
+# Newegg Kubernetes Cloud Tutorials (14)
 
 ## Deploy Ingress
 
@@ -90,7 +90,7 @@ listen e11k8s_ingress
         server e11k8swk05 172.16.164.125:80 check
 ```
 
-<img src="images/14/2017-09-08_11-10-37.png" height="390"> 
+<img src="images\2017-09-08_11-10-37.png" height="390"> 
 
 For above picture, we can see the load balance works properly.
 
@@ -161,7 +161,7 @@ Now we've done the deployment part, now let's verify it.
 
 First, let's access with the load balancer VIP address.
 
-<img src="images/14/404.png">
+<img src="images\404.png">
 
 Then we have the 404 page not found, what happened here is the ingress like a reverse proxy, you can not directly access it with the IP address, you have to access the service with the `host` which we have set as `traefik-ui.newegg.org`.
 
@@ -174,25 +174,25 @@ Let's do the Second way first.
 
 Go to "Customize and Control Google Chrome" > "More tools" > "Extensions"
 
-<img src="images/14/chrome_extension.png">
+<img src="images\chrome_extension.png">
 
 The click "Get more extensions" button.
 
 Search "virtual hosts" and install it.
 
-<img src="images/14/virtual_hosts.png">
+<img src="images\virtual_hosts.png">
 
 Find the extension , enter your host in the "VHost Domain" and enter your load balancer VIP in the "VHost IP" field, then check the "enable" box.
 
 Then try to access `http://traefik-ui.newegg.org`
 
-<img src="images/14/traefik_dashboard.png">
+<img src="images\traefik_dashboard.png">
 
 With the Virtual hosts extension help, we can access our traefik dashboard now.
 
 ALso we can see some health check information from the health page 
 
-<img src="images/14/traefik_health.png">
+<img src="images\traefik_health.png">
 
 Great ! Now you have your first ingress resource deployed and it looks good.
 
@@ -202,7 +202,7 @@ Here I will use the first method.
 
 Go the my DNS server and set the DNS A record for my kubernetes Dashboard.
 
-<img src="images/14/dns.png">
+<img src="images\dns.png">
 
 Please note, although the hosts are different , but the IP address is always the same, the VIP address of the load balancer.
 
@@ -236,7 +236,7 @@ ingress "kubernetes-dashboard" created
 
 Then try to access `http://kubernetes-dashboard.newegg.org`
 
-<img src="images/14/kubernetes_dasboard.png">
+<img src="images\kubernetes_dasboard.png">
 
 Now we success deployed our second ingress resource.
 

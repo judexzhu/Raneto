@@ -9,7 +9,7 @@ tags: [Kubernetes, Docker]
 
 ## Draft: Streamlined Kubernetes Development
 
-<img src="images/draft-logo.png" width="500">
+<img src="images\draft-logo.png" width="500">
 
 [Draft](https://github.com/Azure/draft) is a tool to help prototype microservices and expose them on a publicly available domain. This makes quickly iterating on things like webhooks or APIs quick and painless. Draft utilizes docker, [Helm](https://github.com/kubernetes/helm) and [Kubernetes](https://kubernetes.io/) Ingress Controllers to make your ‘drafts’ publicly available in a hurry. Under the hood, it generates a generic Dockerfile and helm chart for your application to get you up and running quickly. The helm chart creates an ingress resource to expose your chart at a url. You will need the following running for this walkthrough:
 
@@ -39,7 +39,7 @@ Server: &version.Version{SemVer:"v2.4.2", GitCommit:"82d8e9498d96535cc6787a6a919
 
 ### Check Kubernetes Ingress 
 
-<img src="images/traefik.png" width="600">
+<img src="images\traefik.png" width="600">
 
 ___
 
@@ -389,11 +389,11 @@ and Our "Hello World" flask app is running now.
 
 ## Step 6: Check
 
-<img src="images/py_helloworld.png" width="450">
+<img src="images\py_helloworld.png" width="450">
 
 and we will found it automatic create a docker image with the name we set inside the draft.toml.
 
-<img src="images/dockerimage.png" width="600">
+<img src="images\dockerimage.png" width="600">
 
 
 ## Step 7: Upgrade 
@@ -402,15 +402,15 @@ Change the content of the app.py, and it will automatic recreate the docker imag
 
 Hello, Newegg!
 
-<img src="images/py_hellonewegg.png" width="450">
+<img src="images\py_hellonewegg.png" width="450">
 
 Hello, Newegg kubernetes!
 
-<img src="images/py_helloneweggk8s.png" width="450">
+<img src="images\py_helloneweggk8s.png" width="450">
 
 and Also We can check the dockerhub and see different tags of the docker images has been uploaded.
 
-<img src="images/imagetags.png" width="500">
+<img src="images\imagetags.png" width="500">
 
 
 ## Clean UP

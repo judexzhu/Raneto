@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kubernetes Tutorials (12)"
+title: "Newegg Kubernetes Cloud Tutorials (12)"
 description: "Kube-Dashbboard"
 tags: [Kubernetes, Docker]
 ---
 
-# Kubernetes Tutorials (12)
+# Newegg Kubernetes Cloud Tutorials (12)
 
 ## Deploy Kube-Dashboard Addon
 

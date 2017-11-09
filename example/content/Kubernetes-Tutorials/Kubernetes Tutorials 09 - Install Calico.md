@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kubernetes Tutorials (9)"
+title: "Newegg Kubernetes Cloud Tutorials (9)"
 description: "How to install Calico"
 tags: [Kubernetes, Docker]
 ---
 
-# Kubernetes Tutorials (9)
+# Newegg Kubernetes Cloud Tutorials (9)
 
 ## How to install Calico
 

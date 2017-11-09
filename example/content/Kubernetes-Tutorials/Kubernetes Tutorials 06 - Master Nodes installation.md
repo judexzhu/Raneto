@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kubernetes Tutorials (6)"
+title: "Newegg Kubernetes Cloud Tutorials (6)"
 description: "How to Install Kubernetes Master Nodes"
 tags: [Kubernetes, Docker]
 ---
 
-# Kubernetes Tutorials (6)
+# Newegg Kubernetes Cloud Tutorials (6)
 
 ## How to Install Kubernetes Master Nodes on Coreos
 
@@ -572,4 +572,4 @@ kube-apiserver-172.16.164.111
 
 Now you shall also check the haproxy status and see all green.
 
-<img src="images/5/haproxy_stats.png" height="400"> 
+<img src="images\haproxy_stats.png" height="400"> 

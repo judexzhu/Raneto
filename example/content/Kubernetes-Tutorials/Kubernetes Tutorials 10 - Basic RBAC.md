@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kubernetes Tutorials (10)"
+title: "Newegg Kubernetes Cloud Tutorials (10)"
 description: "Basic RBAC"
 tags: [Kubernetes, Docker]
 ---
 
-# Kubernetes Tutorials (10)
+# Newegg Kubernetes Cloud Tutorials (10)
 
 ## How to Config Basic RBAC
 

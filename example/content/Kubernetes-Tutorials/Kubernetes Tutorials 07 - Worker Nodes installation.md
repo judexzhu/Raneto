@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kubernetes Tutorials (7)"
+title: "Newegg Kubernetes Cloud Tutorials (7)"
 description: "How to Install Kubernetes Worker Nodes"
 tags: [Kubernetes, Docker]
 ---
 
-# Kubernetes Tutorials (7)
+# Newegg Kubernetes Cloud Tutorials (7)
 
 ## How to Install Kubernetes Worker Nodes
 

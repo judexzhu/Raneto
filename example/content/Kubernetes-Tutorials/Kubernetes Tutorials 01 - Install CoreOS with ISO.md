@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Newegg Cloud Tutorials (1)"
+title: "Newegg Kubernetes Cloud Tutorials (1)"
 description: "Install CoreOS with ISO"
 tags: [Kubernetes, Docker]
 ---
 
-## Newegg Cloud Tutorials (1)
+## Newegg Kubernetes Cloud Tutorials (1)
 
 # Install CoreOS with ISO
 
@@ -291,7 +291,7 @@ Download the CoreOS ISO file from [Here](https://stable.release.core-os.net/amd6
 
 We've done the part of the centos1, let's 
 
-<img src="images/1/coreos_iso.png" Height="500">
+<img src="images\coreos_iso.png" Height="500">
 
 ## 3: Set IP address, Gateway and DNS
 

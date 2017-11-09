@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kubernetes Tutorials (8)"
+title: "Newegg Kubernetes Cloud Tutorials (8)"
 description: "How to install the Kubectl  Nodes"
 tags: [Kubernetes, Docker]
 ---
 
-# Kubernetes Tutorials (8)
+# Newegg Kubernetes Cloud Tutorials (8)
 
 ## How to install the Kubectl 
 

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Newegg Cloud Tutorials (4)"
+title: "Newegg Kubernetes Cloud Tutorials (4)"
 description: "How to Monitoring etcd service on CoreOS"
 tags: [Kubernetes, Docker]
 ---
 
-## Newegg Cloud Tutorials (4)
+## Newegg Kubernetes Cloud Tutorials (4)
 
 # How to Monitoring and Backup etcd service on CoreOS 
 
@@ -63,7 +63,7 @@ Running a Prometheus monitoring service is the easiest way to ingest and record 
 
 Here is the official prometheus docker image web-page. 
 
-<img src="images/4/prometheus_images.png" height="500">
+<img src="images\prometheus_images.png" height="500">
 
 Let's login the CA server as root
 
@@ -200,13 +200,13 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 Access the `http://${docker_host_ip}:9090`
 
-<img src="images/4/prometheus_webpage.png" height="390">
+<img src="images\prometheus_webpage.png" height="390">
 
 Let's review the `targets`, we can see the job name `etcd3` there and all 5 nodes' state are `'UP'`.
 
 
-<img src="images/4/prometheus_target_2.png" height="330">
-<img src="images/4/prometheus_target.png" height="350">
+<img src="images\prometheus_target_2.png" height="330">
+<img src="images\prometheus_target.png" height="350">
 
 Now we know the prometheus works properly.
 
@@ -218,7 +218,7 @@ Grafana allows you to query, visualize, alert on and understand your metrics no 
 
 >Like prometheus. The official document is to install a binary of GrafanaInstead of doing this, we will using the official Grafana docker image running in the remote server.
 
-<img src="images/4/grafana_images.png" height="300">
+<img src="images\grafana_images.png" height="300">
 
 ## Step 1: Pull the image
 
@@ -238,7 +238,7 @@ Running the grafana container as daemon and expose the port '3000'.
 
 Access the `http://${docker_host_ip}:3000`
 
-<img src="images/4/grafana_login.png" height="400">
+<img src="images\grafana_login.png" height="400">
 
 Login with the default account ***admin: admin***
 
@@ -246,26 +246,26 @@ Login with the default account ***admin: admin***
 
 Click the side menu and select `Data Sources`
 
-<img src="images/4/grafana_sidemenu.png" height="400">
+<img src="images\grafana_sidemenu.png" height="400">
 
 
 Add Prometheus Data Source as shown in below picture:
 
-<img src="images/4/grafana_datasource.png" height="600">
+<img src="images\grafana_datasource.png" height="600">
 
 > Change the Name you like and the URL of your own docker host.
 
 Click Save and Test to make sure it works.
 
-<img src="images/4/prometheus_etcd.png" height="250">
+<img src="images\prometheus_etcd.png" height="250">
 
 ## Step 5: Import the Grafana Dashboard
 
 Click Side menu --> Dashboards --> Import.
 
-<img src="images/4/grafana_import.png" height="350">
+<img src="images\grafana_import.png" height="350">
 
-<img src="images/4/import_json.png" height="350">
+<img src="images\import_json.png" height="350">
 
 Paste the below Json code on the field which I marked with red rectangle. Then click the `Load` button. 
 
@@ -1382,9 +1382,9 @@ to
 
 Check the Dashboard name and Select the right Data Source, then Click *`import`*.
 
-<img src="images/4/import_dashboard.png" height="300">
+<img src="images\import_dashboard.png" height="300">
 
 
 ## Step 6: The etcd cluster prometheus-grafana dashboard 
 
-<img src="images/4/etcd_dashboard.png" height="600">
+<img src="images\etcd_dashboard.png" height="600">

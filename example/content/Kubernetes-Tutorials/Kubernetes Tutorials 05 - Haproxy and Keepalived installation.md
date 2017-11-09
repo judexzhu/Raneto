@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Newegg Cloud Tutorials (5)"
+title: "Newegg Kubernetes Cloud Tutorials (5)"
 description: "How to Install and Config HAproxy+KeepAlived for Kubernetes API-Servers"
 tags: [Kubernetes, Docker]
 ---
 
-## Newegg Cloud Tutorials (5)
+## Newegg Kubernetes Cloud Tutorials (5)
 
 # How to Install and Config HAproxy+KeepAlived for Kubernetes API-Servers
 
 ## Quick Review
 
-<img src="images/5/etcd_finished.png" height="400">
+<img src="images\etcd_finished.png" height="400">
 
 From Tutorial 1~4, we have finished build the etcd cluster. 
 
@@ -21,7 +21,7 @@ From Tutorial 1~4, we have finished build the etcd cluster.
 
 Next, let's focus this Haproxy + Keepalived part and prepare for the Kubernetes Master implementation.
 
-<img src="images/5/haproxy.png" height="400">
+<img src="images\haproxy.png" height="400">
 
 
 ## Sever Spec 
@@ -322,7 +322,7 @@ systemctl status haproxy
 
 Also we can check the status page we set inthe haproxy.cfg
 
-<img src="images/5/haproxy_stats.png" height="400"> 
+<img src="images\haproxy_stats.png" height="400"> 
 
 > Note: You will see red (which mean errors) instead of green here. Why? for we haven't deploy the kubernetes Master Nodes and the API-Server port , *443* , are not opened yet.
 
@@ -426,4 +426,4 @@ Start the haproxy on the Master Node , and the VIP will move back.
 
 And if you set the Email alert right in the configuration, you would like to receive emails to tell you what happened to your haproxy servers, as below:
 
- <img src="images/5/email_alert.png" height="330"> 
+ <img src="images\email_alert.png" height="330"> 

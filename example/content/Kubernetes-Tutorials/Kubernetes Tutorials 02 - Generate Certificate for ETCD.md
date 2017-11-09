@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Newegg CloudTutorials (2)"
+title: "Newegg Kubernetes Cloud Tutorials (2)"
 description: "How to generate certificates for ETCD"
 tags: [Kubernetes, Docker]
 ---
 
-## Newegg Cloud Tutorials (2)
+## Newegg Cloud Kubernetes Tutorials (2)
 
 # How to generate certificates for ETCD 
 
@@ -13,11 +13,11 @@ tags: [Kubernetes, Docker]
 
 etcd is a distributed key value store that provides a reliable way to store data across a cluster of machines. It’s open-source and available on GitHub. etcd gracefully handles leader elections during network partitions and will tolerate machine failure, including the leader.
 
-<img src="images/2/prod.png" width="500">
+<img src="images\prod.png" width="500">
 
 The replication between the leader and followers.
 
-<img src="images/2/Etcd-Replication.png" width="300">
+<img src="images\Etcd-Replication.png" width="300">
 
 ## Why we use etcd
 

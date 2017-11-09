@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kubernetes Tutorials (13)"
+title: "Newegg Kubernetes Cloud Tutorials (13)"
 description: "Traefik"
 tags: [Kubernetes, Docker]
 ---
 
-# Kubernetes Tutorials (13)
+# Newegg Kubernetes Cloud Tutorials (13)
 
 ## Deploy Traefik Ingress Controller
 

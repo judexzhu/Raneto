@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kubernetes Tutorials (11)"
+title: "Newegg Kubernetes Cloud Tutorials (11)"
 description: "Kube-DNS"
 tags: [Kubernetes, Docker]
 ---
 
-# Kubernetes Tutorials (11)
+# Newegg Kubernetes Cloud Tutorials (11)
 
 ## Deploy Kube-DNS Addon
 

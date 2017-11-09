@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Newegg Cloud Tutorials (3)"
+title: "Newegg Kubernetes Cloud Tutorials (3)"
 description: "How to install ETCD on CoreOS"
 tags: [Kubernetes, Docker]
 ---
 
-## Newegg Cloud Tutorials (3)
+## Newegg Kubernetes Cloud Tutorials (3)
 
 # How to install ETCD on CoreOS 
 
@@ -39,7 +39,7 @@ As we discussed at last tutorial , we will have 5 nodes , so the failure toleran
 
 Also we prepare the certificates for etcd security by using the cfssl tool. (*If only running etcd cluster for evaluation purpose, you can skip the certificate part and using http, but for the production we strongly recommend adding TLS security to your etcd cluster.* )
 
-<img src="images/2/cert-list.png" height="158">
+<img src="images\cert-list.png" height="158">
 
 ___
 
