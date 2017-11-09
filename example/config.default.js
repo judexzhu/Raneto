@@ -7,7 +7,7 @@ var config = {
   site_title: 'Newegg MarkDown Knowledge System',
 
   // The base URL of your site (can use %base_url% in Markdown files)
-  base_url: 'kb.newegg.org',
+  base_url: '',
 
   // Used for the "Get in touch" page footer link
   support_email: 'jude.x.zhu@newegg.com',
