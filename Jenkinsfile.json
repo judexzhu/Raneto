@@ -1,0 +1,27 @@
+{
+    "app": {
+      "name": "raneto",
+      "replicas": "3",
+      "cpu": "500m",
+      "memory": "512Mi",
+      "test": true,
+      "hostname": "raneto.newegg.org"
+    },
+    "container_repo": {
+      "host": "",
+      "master_acct": "judexzhu",
+      "alt_acct": "judexzhu",
+      "jenkins_creds_id": "dockerhub",
+      "repo": "raneto",
+      "dockeremail": ".",
+      "dockerfile": "./",
+      "image_scanning": false
+    },
+    "pipeline": {
+        "enabled": true,
+        "debug": false,
+        "library": {
+          "branch": "master"
+        }
+    }
+  }
